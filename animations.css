@@ -1,6 +1,7 @@
 
 .link-hover a, .link-hover .glyphicon, .link-hover .bg{
     font-size:18px;
+    -webkit-transition:all .4s ease-in-out;
     transition:all .4s ease-in-out;
 }
 .link-hover a{
@@ -16,10 +17,12 @@
 }
 .link-hover a:hover{
     color:#fff;
+    -webkit-transform:translate(0px, 0px);
     transform:translate(0px, 0px);
     text-decoration: none;
 }
 .link-hover a:hover .glyphicon{
+    -webkit-transform: rotate(360deg);
     transform: rotate(360deg);
 }
 .bg{
@@ -29,8 +32,10 @@
     height:30px;
     background-color:#357;
     z-index:1;
+    -webkit-transform: translate(-100%, 0px);
     transform: translate(-100%, 0px);
 }
 .link-hover a:hover .bg{
+    -webkit-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
 }
