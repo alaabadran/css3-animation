@@ -6,8 +6,6 @@
 .link-hover a{
     display:inline-block;
     position:relative;
-    left:200px;
-    top:100px;
     overflow:hidden;
     border-radius:25px;
 }
