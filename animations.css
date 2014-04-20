@@ -49,14 +49,14 @@
     -webkit-transform: translate(0px, 0px);
     transform: translate(0px, 0px);
 }
-.rotate-scale a, .rotate-scale a:hover{
-    font-size:20px;
+.rotate-scale a span, .rotate-scale a:hover span{
+    font-size:30px;
     -ms-transition:all .3s ease-in-out;
     -moz-transition:all .3s ease-in-out;
     -webkit-transition:all .3s ease-in-out;
     transition:all .3s ease-in-out;
 }
-.rotate-scale a:hover{
+.rotate-scale a:hover span{
     -ms-transform: rotate(360deg);
     -moz-transform: rotate(360deg);
     -webkit-transform: rotate(360deg);
